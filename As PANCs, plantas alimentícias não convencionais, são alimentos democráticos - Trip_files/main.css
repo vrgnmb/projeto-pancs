@@ -1,0 +1,250 @@
+/* Reset css */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;	
+	list-style: none;
+}
+/* End reset css */
+
+/* Banner size */
+.size {
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+}
+/* End banner size */
+
+/* General styles */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+h4 {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+}
+/* End general styles */
+
+/* Classes styles */
+.element_center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.saiba_mais {
+	border-radius: 4px;
+	background-color: #0A67A2;
+	box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.08);
+	cursor: pointer;
+}
+
+.anti_alias {
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: grayscale;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+/* End classes styles */
+
+/* Main box styles */
+#banner {
+	position: relative;
+	z-index: 1;
+}
+/* End main box styles */
+
+/* Background styles */
+#background {
+	position: absolute;
+	z-index: 2;
+}
+
+#background img#background_number_1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#background img#background_number_1_blur {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 1;
+}
+
+#background img#background_number_2 {
+	position: absolute;
+	top: 250px;
+	left: 0;
+}
+
+#background img#background_number_3 {
+	position: absolute;
+	top: 300px;
+	left: 0;
+}
+/* End background styles */
+
+/* Frame 1 styles */
+#frame1 {
+	position: absolute;
+	z-index: 3;
+}
+
+#frame1 img {
+	position: absolute;
+}
+/* End frame 1 styles */
+
+/* Frame 2 styles */
+#frame2 {
+	position: absolute;
+	z-index: 3;
+	display: none;
+}
+
+#frame2 svg {
+	font: bold 28px 'Arial';
+	position: absolute;
+	bottom: 51px;
+	left: 76px;
+	width: 145px;
+	height: 32px;
+	opacity: 0;
+}
+  
+#frame2 svg text {
+	fill: none;
+	stroke: #FFFFFF;
+	stroke-width: 1px;
+	// stroke-dasharray: 2,2;
+	stroke-linejoin: round;
+}
+
+#frame2 h1 {
+	position: absolute;
+	bottom: 16px;
+	left: 116px;
+	overflow: hidden;
+}
+
+#frame2 h1 span {
+	opacity: 0;
+}
+/* End frame 2 styles */
+
+/* Frame 3 styles */
+#frame3 {
+	position: absolute;
+	z-index: 3;
+	display: none;
+}
+
+#frame3 h3 {
+	position: absolute;
+	bottom: 16px;
+	left: 24px;
+	width: 228px;
+	height: 0;
+	overflow: hidden;
+}
+/* End frame 3 styles */
+
+/* Frame 4 styles */
+#frame4 {
+	position: absolute;
+	z-index: 3;
+	display: none;
+}
+
+#frame4 a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+}
+
+#frame4 img {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	opacity: 0;
+}
+
+#frame4 svg {
+	font: bold 23px 'Arial';
+	position: absolute;
+	bottom: 55px;
+	left: 12px;
+	width: 145px;
+	height: 32px;
+	opacity: 0;
+}
+  
+#frame4 svg text {
+	fill: none;
+	stroke: #FFFFFF;
+	stroke-width: 1px;
+	// stroke-dasharray: 2,2;
+	stroke-linejoin: round;
+}
+
+#frame4 h2 {
+	position: absolute;
+	bottom: 51px;
+	left: 98px;
+	width: 153px;
+}
+
+#frame4 h2 span {
+	opacity: 0;
+}
+
+#frame4 h4 {
+	position: absolute;
+	bottom: 15px;
+	left: 16px;
+	width: 173px;
+	height: 0;
+	overflow: hidden;
+}
+
+#frame4 .saiba_mais {
+	position: absolute;
+	bottom: 18px;
+	right: 12px;
+	opacity: 0;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 8px 7px;
+}
+
+.saiba_mais_hover {
+	background: #465e8f;
+	text-decoration: underline;
+}
+/* End frame 4 styles */

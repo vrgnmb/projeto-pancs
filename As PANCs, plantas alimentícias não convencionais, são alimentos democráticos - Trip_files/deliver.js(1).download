@@ -1,0 +1,29 @@
+var _RMP_AD_INFO = {
+	zn_id: "368108",
+	clicktag: "https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsv0kyRjnkbCcJieIbjeK6PqL8yFBrjWC-jaZvGfCx1LJL3A2FG459ynHabYIfyKZFcfF90YszAvJiI2azG8tKtt7ajnFjW9MtF9UaidhX-T49fRl-mcxHTvhZmnJWHwj9yXUQM5pnDI2dM_Acwi8Z52fs5CamDCLG70u0NVfRjdcAf-G5F_Xm5CXnbDi28LESdHKytJ8Q6w5q9-rB86mHRfD5iG2zW-P0XpiwlbO2FApqjnHEEd8K3Pyw&sig=Cg0ArKJSzKcOGB_mdyXjEAE&urlfix=1&adurl=",
+	is_retargeting: "$is_retargeting",
+	retargeting_tracking: "$retargeting_tracking",
+	non_retargeting_tracking: "$non_retargeting_tracking",
+	link: "http://rdm.reamp.com.br/clk?cid=1115542&zid=368108&dvrtsrd=1000328&r=http%253A%252F%252Fwww.bb.com.br%252Fpbb%252Fpagina-inicial%252Festilo%252Fprodutos-e-servicos%252Ffinanciamentos%252Ffinanciar-imoveis%253Futm_source%253Dtrip%2526utm_medium%253Dimobconceito%2526utm_term%253Doutubro%2526utm_content%253Dtrip_ros_square_300x250_imobconceito_outubro_ads%2526utm_campaign%253Dbbestilo2017",
+	width: 300,
+	height: 250,
+	creatives : [{ 
+id: "1115542",
+swf: "http://rat.reamp.com.br/rmp_banners/1115542/index.html",
+fallback: "http://rat.reamp.com.br/simple_creatives/1115542/C3_01_arroba_300x250_ImobConceito.jpg",
+creative_width: "300",
+creative_height: "250",
+fallback: "http://rat.reamp.com.br/simple_creatives/1115542/C3_01_arroba_300x250_ImobConceito.jpg",
+creative_dco_url: "",
+custom_html: ""
+}],
+	sku_list: [''],
+	user_location: "$user_location",
+	creative_id: "1115542",
+	rmpRemoteIds: "",
+	item_quantity: "",
+	ocp_zone_type: "",
+    adv_id: "1000328",
+    branding_color: "",
+    responsive: ""
+};
